@@ -3,4 +3,4 @@ module Lib
     ) where
 
 someFunc :: IO ()
-someFunc = putStrLn "This is my first project with haskell"
+someFunc = putStrLn "Joe's Hello world app done in haskell"

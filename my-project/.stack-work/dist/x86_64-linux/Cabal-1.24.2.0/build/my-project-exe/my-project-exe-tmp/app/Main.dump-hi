@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2017-11-26 18:52:06.136564 UTC
+2017-11-26 19:18:02.619602 UTC
 
 interface main@main:Main 8002
-  interface hash: 3331f0255fbcbb789c1144a42433eff4
-  ABI hash: 22675ad18eedba30d8c1c0441c5c6626
+  interface hash: 9dc306ec274199a183217bcf40851ff8
+  ABI hash: fc4f97860b65c1eb9d0464df56876809
   export-list hash: 0b86d1c936f89c2d3d8a663de153aaff
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 2fb6519b4d0685ec9bb20bf9859b5c63
@@ -25,7 +25,7 @@ family instance modules: base-4.9.1.0:Control.Applicative
                          base-4.9.1.0:GHC.TypeLits
 import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
 import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
-import  -/  my-project-0.1.0.0@my-project-0.1.0.0-EDI2S0Q4RYhAvm4lhoI40i:Lib f286ba53b070c65a81e440e1f9eeb744
+import  -/  my-project-0.1.0.0@my-project-0.1.0.0-EDI2S0Q4RYhAvm4lhoI40i:Lib 77467fa5ec981a66a0b08eff87d76741
 d6831ef04cb9301b090dfae6f7bb7ec7
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
@@ -38,12 +38,12 @@ d6831ef04cb9301b090dfae6f7bb7ec7
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "main"#) -}
-690523b798dc2a41af41224ce403215b
+e72b175ebe6b6ef74de1f8b02df9247b
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Lib.someFunc1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-9f808e346d7fdbee08b07959e1f02ca4
+549678559fbc8fcfd06496f6dd8c5623
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
